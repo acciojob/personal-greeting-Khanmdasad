@@ -15,7 +15,7 @@ const Greeting = () => {
         onChange={handleInputChange}
         placeholder="Enter your name"
       />
-      {name && <p>Hello, {name}!</p>} {/* Changed <h2> to <p> */}
+      {name && <p>Hello {name}!</p>} 
     </div>
   );
 };
