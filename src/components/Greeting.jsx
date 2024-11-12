@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const Greeting = () => {
-  const [name, setName] = useState(''); 
-  
+  const [name, setName] = useState('');
+
   const handleInputChange = (e) => {
     setName(e.target.value);
   };
@@ -15,7 +15,7 @@ const Greeting = () => {
         onChange={handleInputChange}
         placeholder="Enter your name"
       />
-      {name && <h2>Hello, {name}!</h2>} 
+      {name && <p>Hello, {name}!</p>} {/* Changed <h2> to <p> */}
     </div>
   );
 };
