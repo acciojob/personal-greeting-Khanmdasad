@@ -13,10 +13,9 @@ const Greeting = () => {
         type="text"
         value={name}
         onChange={handleInputChange}
-        placeholder="Enter your name"
       />
 
-      <p> Hello {name} !</p> 
+      <p> Hello {name}!</p> 
     </div>
   );
 };
